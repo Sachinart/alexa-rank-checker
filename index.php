@@ -64,7 +64,7 @@ function getMultipleRanks($sites)
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif+SC|Roboto+Condensed|Staatliches" rel="stylesheet">
 	
 		<!-- Compiled and minified JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src="bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid top-1">
@@ -137,8 +137,8 @@ function getMultipleRanks($sites)
 		</div>
 	</footer>
 		
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
