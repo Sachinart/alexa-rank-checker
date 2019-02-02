@@ -57,8 +57,8 @@ function getMultipleRanks($sites)
   <meta name="Keywords" content="alexa, rank, website rank checker, alexa rank checker bulk, website ranking checker">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif+SC|Roboto+Condensed|Staatliches" rel="stylesheet">
