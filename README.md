@@ -1,4 +1,4 @@
-# Alex-Rank-Checker
+# Alexa-Rank-Checker
 Here You Can Check Website Rank In Bulk - Recently I have Build It - Hope You Like My These Tool!
 
 # Installation
