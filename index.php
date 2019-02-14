@@ -7,12 +7,7 @@ if(isset($_POST['sites'])){
 	
 }
 
-
-
 function getRank($siteUrl){
-	
-	// local array
-	//$data = new array();
 	
 	// load alexa api 
 	$xml = simplexml_load_file("http://data.alexa.com/data?cli=10&url=".$siteUrl);
@@ -32,9 +27,7 @@ function getRank($siteUrl){
 		$data['time'] =  date('Y-m-d',time());	
 		 
 		return $data;
-	
 }
-
 
 function getMultipleRanks($sites)
 {
@@ -205,9 +198,6 @@ function getMultipleRanks($sites)
 			$(".url-data").show();
 		}
 		
-		
 	</script> 
-	
 	</body>
 </html>
-
