@@ -18,13 +18,13 @@ Here You Can Test the Working: <a href="https://trafficsolder.com/alexa-rank-che
 Just install the script anywhere. Enter the websites separated by commas and click on Submit.
 
 # Features
-Data Export
+* Data Export in Excel, CSV and PDF format
 <br>
-Faster Than Alexa
+* Faster Than Alexa
 <br>
-Bulk Ranking Checker
+* Bulk Websites Ranking Checker
 <br>
-Ultimate Design
+* Ultimate Responsive Design
 <br>
 
 <br>
