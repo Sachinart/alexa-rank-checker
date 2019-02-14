@@ -19,13 +19,10 @@ Just install the script anywhere. Enter the websites separated by commas and cli
 
 # Features
 * Data Export in Excel, CSV and PDF format
-<br>
 * Faster Than Alexa
-<br>
 * Bulk Websites Ranking Checker
-<br>
 * Ultimate Responsive Design
-<br>
+
 
 <br>
 <blockquote>You can also test it on localhost (xampp)</blockquote>
