@@ -57,14 +57,12 @@ function getMultipleRanks($sites)
   <meta name="Keywords" content="alexa, rank, website rank checker, alexa rank checker bulk, website ranking checker">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="bootstrap.css">
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif+SC|Roboto+Condensed|Staatliches" rel="stylesheet">
 	
-		<!-- Compiled and minified JavaScript -->
-		<script src="bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid top-1">
@@ -108,6 +106,7 @@ function getMultipleRanks($sites)
 			</div>
 			<div class="row url-data">
 				<div class="col-sm-12">
+				    <hr>
 					<table class="table table-striped table-bordered table-hover" id="urlTable">
 						<thead>
 							<tr>
@@ -137,8 +136,8 @@ function getMultipleRanks($sites)
 		</div>
 	</footer>
 		
-	<script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
@@ -168,7 +167,7 @@ function getMultipleRanks($sites)
         });
 		
 		var data = <?php echo json_encode($data) ?>;
-		console.log(data);
+		//console.log(data);
 		
 		if(data){
 			
@@ -191,7 +190,10 @@ function getMultipleRanks($sites)
 					} else if(url_data=="local_rank"){
 						var local_rank = data[url][url_data];
 					} else if(url_data=="country"){
-						var country = data[url][url_data][0];
+					    if(data[url][url_data]!=null)
+    						var country = data[url][url_data][0];
+    					else
+    					    var country = 'NA';
 					}
 				}
 				
