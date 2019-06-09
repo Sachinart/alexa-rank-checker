@@ -11,7 +11,7 @@ Now Upload <strong>.zip</strong> file to make it live just extract it Done!
 
 You can check 100 URL's at once live data can be print at the tables!
 
-Here You Can Test the Working: <a href="https://trafficsolder.com/alexa-rank-checker/">Alexa Rank Checker</a>
+Here You Can Test the Working: <a href="https://keepitbro.com/alexa-rank-checker/">Alexa Rank Checker</a>
 
 # How To Use?
 
