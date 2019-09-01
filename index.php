@@ -123,7 +123,7 @@ function getMultipleRanks($sites)
 		<div class="container">
 			<div class="row">
 				<center>
-					<strong> Tool Build By:</stong> <a href="https://trafficsolder.com">Traffic Solder</a>
+					<strong> Tool Build By:</stong> <a href="https://keepitbro.com">Keep It Bro</a>
 				</center>
 			</div>
 		</div>
